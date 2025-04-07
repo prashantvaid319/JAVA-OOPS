@@ -22,7 +22,7 @@ public class ExceptionHandling{
         }
          
     }
-    public static void level3  (){
+    public static void level3  (){ //print tha stack trace
         int [] arr=new int[5];
         arr[5]=10;
     } public static void level2(){
@@ -54,7 +54,7 @@ public class ExceptionHandling{
     //         System.out.println("Good Job! You have completed the program without any errors.");
     //     }
     }
-    class Myexeception extends Expection{
+    class Myexeception extends Expection{ // coustom exception myException will in herit the exception class
        
     }
     public static class Bank{
